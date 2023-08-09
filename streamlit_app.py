@@ -29,7 +29,7 @@ try:
   # fruit choice
   fruit_choice = streamlit.text_input('What fruit would you like to know about?')
   if not fruit_choice:
-    streamline.error("Please select a fruit to get information")
+    streamlit.error("Please select a fruit to get information")
   else:
     # python package library requests
     # streamlit.text(fruityvice_response.json())
